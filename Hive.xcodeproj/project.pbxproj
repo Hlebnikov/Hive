@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6B4CCD1E225D6C008851A1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B4CCC1E225D6C008851A1 /* Player.swift */; };
+		1F6B4CCF1E22630B008851A1 /* HumanPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B4CCE1E22630B008851A1 /* HumanPlayer.swift */; };
+		1F6B4CD11E2263D9008851A1 /* AIPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B4CD01E2263D9008851A1 /* AIPlayer.swift */; };
+		1F6B4CD61E226497008851A1 /* HiveGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B4CD51E226497008851A1 /* HiveGame.swift */; };
+		1F6B4CD81E22654F008851A1 /* HiveBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B4CD71E22654F008851A1 /* HiveBoard.swift */; };
+		1F9135831E214C4C0091054B /* HiveScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9135821E214C4C0091054B /* HiveScene.swift */; };
+		1F9135861E2151D00091054B /* PieceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9135851E2151D00091054B /* PieceType.swift */; };
+		1F9135881E215CAC0091054B /* PieceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9135871E215CAC0091054B /* PieceCollectionViewCell.swift */; };
+		1FA491AE1E2268EF0059D580 /* PiecePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA491AD1E2268EF0059D580 /* PiecePosition.swift */; };
+		1FC177C91E2210BA00B327F4 /* PieceColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC177C81E2210B900B327F4 /* PieceColor.swift */; };
+		1FC177CB1E2211FF00B327F4 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC177CA1E2211FF00B327F4 /* Piece.swift */; };
 		1FCCC2CC1E17B1B30002D966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCC2CB1E17B1B30002D966 /* AppDelegate.swift */; };
-		1FCCC2CE1E17B1B30002D966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCC2CD1E17B1B30002D966 /* ViewController.swift */; };
+		1FCCC2CE1E17B1B30002D966 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCC2CD1E17B1B30002D966 /* GameViewController.swift */; };
 		1FCCC2D11E17B1B30002D966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCC2CF1E17B1B30002D966 /* Main.storyboard */; };
 		1FCCC2D31E17B1B30002D966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCC2D21E17B1B30002D966 /* Assets.xcassets */; };
 		1FCCC2D61E17B1B30002D966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCC2D41E17B1B30002D966 /* LaunchScreen.storyboard */; };
 		1FCCC2E11E17B1B30002D966 /* HiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCC2E01E17B1B30002D966 /* HiveTests.swift */; };
+		1FCCC2EE1E17BB640002D966 /* HiveScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCC2ED1E17BB640002D966 /* HiveScene.sks */; };
+		1FCCC2F01E17BBCE0002D966 /* HiveTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCC2EF1E17BBCE0002D966 /* HiveTileSet.sks */; };
+		3FAA26C313B409438BBD2A98 /* Pods_Hive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291023C9E940426486F57A4D /* Pods_Hive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F6B4CCC1E225D6C008851A1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		1F6B4CCE1E22630B008851A1 /* HumanPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanPlayer.swift; sourceTree = "<group>"; };
+		1F6B4CD01E2263D9008851A1 /* AIPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIPlayer.swift; sourceTree = "<group>"; };
+		1F6B4CD51E226497008851A1 /* HiveGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiveGame.swift; sourceTree = "<group>"; };
+		1F6B4CD71E22654F008851A1 /* HiveBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiveBoard.swift; sourceTree = "<group>"; };
+		1F9135821E214C4C0091054B /* HiveScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiveScene.swift; sourceTree = "<group>"; };
+		1F9135851E2151D00091054B /* PieceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieceType.swift; sourceTree = "<group>"; };
+		1F9135871E215CAC0091054B /* PieceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieceCollectionViewCell.swift; sourceTree = "<group>"; };
+		1FA491AD1E2268EF0059D580 /* PiecePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiecePosition.swift; sourceTree = "<group>"; };
+		1FC177C81E2210B900B327F4 /* PieceColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieceColor.swift; sourceTree = "<group>"; };
+		1FC177CA1E2211FF00B327F4 /* Piece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
 		1FCCC2C81E17B1B30002D966 /* Hive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCCC2CB1E17B1B30002D966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FCCC2CD1E17B1B30002D966 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FCCC2CD1E17B1B30002D966 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1FCCC2D01E17B1B30002D966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FCCC2D21E17B1B30002D966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FCCC2D51E17B1B30002D966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +61,11 @@
 		1FCCC2DC1E17B1B30002D966 /* HiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCCC2E01E17B1B30002D966 /* HiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiveTests.swift; sourceTree = "<group>"; };
 		1FCCC2E21E17B1B30002D966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCCC2ED1E17BB640002D966 /* HiveScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HiveScene.sks; sourceTree = "<group>"; };
+		1FCCC2EF1E17BBCE0002D966 /* HiveTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HiveTileSet.sks; sourceTree = "<group>"; };
+		291023C9E940426486F57A4D /* Pods_Hive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E98FDB2868FE9E855197EF /* Pods-Hive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hive.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hive/Pods-Hive.release.xcconfig"; sourceTree = "<group>"; };
+		83A1BEFE0F4EA2D1EBFD809F /* Pods-Hive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hive/Pods-Hive.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FAA26C313B409438BBD2A98 /* Pods_Hive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +87,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F02FF0F22C794483840B37D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83A1BEFE0F4EA2D1EBFD809F /* Pods-Hive.debug.xcconfig */,
+				42E98FDB2868FE9E855197EF /* Pods-Hive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F6B4CD21E226422008851A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCC2CD1E17B1B30002D966 /* GameViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1F6B4CD31E22645C008851A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F9135821E214C4C0091054B /* HiveScene.swift */,
+				1F9135871E215CAC0091054B /* PieceCollectionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1F6B4CD41E22646F008851A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCC2ED1E17BB640002D966 /* HiveScene.sks */,
+				1FCCC2EF1E17BBCE0002D966 /* HiveTileSet.sks */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1F9135841E21512B0091054B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F9135851E2151D00091054B /* PieceType.swift */,
+				1FC177C81E2210B900B327F4 /* PieceColor.swift */,
+				1FC177CA1E2211FF00B327F4 /* Piece.swift */,
+				1F6B4CCC1E225D6C008851A1 /* Player.swift */,
+				1F6B4CCE1E22630B008851A1 /* HumanPlayer.swift */,
+				1F6B4CD01E2263D9008851A1 /* AIPlayer.swift */,
+				1F6B4CD51E226497008851A1 /* HiveGame.swift */,
+				1F6B4CD71E22654F008851A1 /* HiveBoard.swift */,
+				1FA491AD1E2268EF0059D580 /* PiecePosition.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		1FCCC2BF1E17B1B30002D966 = {
 			isa = PBXGroup;
 			children = (
 				1FCCC2CA1E17B1B30002D966 /* Hive */,
 				1FCCC2DF1E17B1B30002D966 /* HiveTests */,
 				1FCCC2C91E17B1B30002D966 /* Products */,
+				0F02FF0F22C794483840B37D /* Pods */,
+				FD2ECCFE4FDE4197C9CFEF12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +161,14 @@
 		1FCCC2CA1E17B1B30002D966 /* Hive */ = {
 			isa = PBXGroup;
 			children = (
+				1F6B4CD41E22646F008851A1 /* Resources */,
+				1F6B4CD31E22645C008851A1 /* Views */,
+				1F6B4CD21E226422008851A1 /* Controllers */,
+				1F9135841E21512B0091054B /* Models */,
 				1FCCC2CB1E17B1B30002D966 /* AppDelegate.swift */,
-				1FCCC2CD1E17B1B30002D966 /* ViewController.swift */,
+				1FCCC2D41E17B1B30002D966 /* LaunchScreen.storyboard */,
 				1FCCC2CF1E17B1B30002D966 /* Main.storyboard */,
 				1FCCC2D21E17B1B30002D966 /* Assets.xcassets */,
-				1FCCC2D41E17B1B30002D966 /* LaunchScreen.storyboard */,
 				1FCCC2D71E17B1B30002D966 /* Info.plist */,
 			);
 			path = Hive;
@@ -96,6 +183,14 @@
 			path = HiveTests;
 			sourceTree = "<group>";
 		};
+		FD2ECCFE4FDE4197C9CFEF12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				291023C9E940426486F57A4D /* Pods_Hive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FCCC2E51E17B1B30002D966 /* Build configuration list for PBXNativeTarget "Hive" */;
 			buildPhases = (
+				456700BDC9C8A37279828DC2 /* [CP] Check Pods Manifest.lock */,
 				1FCCC2C41E17B1B30002D966 /* Sources */,
 				1FCCC2C51E17B1B30002D966 /* Frameworks */,
 				1FCCC2C61E17B1B30002D966 /* Resources */,
+				034FA27C40607367CF28E2CC /* [CP] Embed Pods Frameworks */,
+				B1C5C11A0637B91A8E3F427C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,7 +281,9 @@
 			files = (
 				1FCCC2D61E17B1B30002D966 /* LaunchScreen.storyboard in Resources */,
 				1FCCC2D31E17B1B30002D966 /* Assets.xcassets in Resources */,
+				1FCCC2EE1E17BB640002D966 /* HiveScene.sks in Resources */,
 				1FCCC2D11E17B1B30002D966 /* Main.storyboard in Resources */,
+				1FCCC2F01E17BBCE0002D966 /* HiveTileSet.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,13 +296,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		034FA27C40607367CF28E2CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hive/Pods-Hive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		456700BDC9C8A37279828DC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C5C11A0637B91A8E3F427C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hive/Pods-Hive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FCCC2C41E17B1B30002D966 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCCC2CE1E17B1B30002D966 /* ViewController.swift in Sources */,
+				1FA491AE1E2268EF0059D580 /* PiecePosition.swift in Sources */,
+				1FCCC2CE1E17B1B30002D966 /* GameViewController.swift in Sources */,
+				1FC177CB1E2211FF00B327F4 /* Piece.swift in Sources */,
+				1F6B4CCF1E22630B008851A1 /* HumanPlayer.swift in Sources */,
 				1FCCC2CC1E17B1B30002D966 /* AppDelegate.swift in Sources */,
+				1F9135861E2151D00091054B /* PieceType.swift in Sources */,
+				1F6B4CCD1E225D6C008851A1 /* Player.swift in Sources */,
+				1F6B4CD81E22654F008851A1 /* HiveBoard.swift in Sources */,
+				1F6B4CD61E226497008851A1 /* HiveGame.swift in Sources */,
+				1F6B4CD11E2263D9008851A1 /* AIPlayer.swift in Sources */,
+				1F9135831E214C4C0091054B /* HiveScene.swift in Sources */,
+				1FC177C91E2210BA00B327F4 /* PieceColor.swift in Sources */,
+				1F9135881E215CAC0091054B /* PieceCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +496,7 @@
 		};
 		1FCCC2E61E17B1B30002D966 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A1BEFE0F4EA2D1EBFD809F /* Pods-Hive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z5R2JEMGS2;
@@ -350,6 +510,7 @@
 		};
 		1FCCC2E71E17B1B30002D966 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E98FDB2868FE9E855197EF /* Pods-Hive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z5R2JEMGS2;
@@ -410,6 +571,7 @@
 				1FCCC2E71E17B1B30002D966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FCCC2E81E17B1B30002D966 /* Build configuration list for PBXNativeTarget "HiveTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +580,7 @@
 				1FCCC2EA1E17B1B30002D966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
